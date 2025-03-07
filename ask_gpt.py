@@ -3,14 +3,14 @@ import json
 import prompt as p
 from dotenv import load_dotenv
 
-
 load_dotenv()
+
 
 def ask_tema_restaurant(session, review_text, project):
     headers = {
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {os.getenv("API_KEY_AI")}"
-        }
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {os.getenv("API_KEY_AI")}"
+    }
 
     if project == "fitness":
         data = {
