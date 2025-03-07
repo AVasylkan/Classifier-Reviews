@@ -3,6 +3,7 @@ import logging
 from flask.logging import create_logger
 from flask import Flask
 
+
 app = Flask(__name__)
 
 logger_app = create_logger(app)

@@ -1,4 +1,4 @@
-from flask import request, jsonify, Flask
+from flask import request, jsonify
 from requests import Session
 from b24 import get_review_text, crm_update_tema
 from ask_gpt import ask_tema_restaurant

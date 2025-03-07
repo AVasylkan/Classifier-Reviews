@@ -3,6 +3,7 @@ import json
 import prompt as p
 from dotenv import load_dotenv
 
+
 load_dotenv()
 
 def ask_tema_restaurant(session, review_text, project):
