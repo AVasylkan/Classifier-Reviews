@@ -1,6 +1,5 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-
 __pypackages__/
 .env
 .venv
@@ -11,3 +10,4 @@ env.bak/
 venv.bak/
 *.log/
 /logs/
+.log
